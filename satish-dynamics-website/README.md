@@ -7,10 +7,12 @@ Platform / Azure / AI transformation consultancy.
 
 ```bash
 npm install
-npm run dev       # local dev server
-npm run build      # production build to /dist
-npm run preview    # preview the production build
+npm run dev       # local dev server at http://localhost:5173
+npm run build     # production build to /dist
+npm run preview   # preview the production build at http://localhost:4173
 ```
+
+> Open the site through the local Vite server rather than by double-clicking the generated dist file. Browsers block module scripts and stylesheets from file:// URLs because of CORS and origin restrictions.
 
 ## Project structure
 
